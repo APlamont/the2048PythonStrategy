@@ -19,7 +19,7 @@ setup(name='the2048PythonStrategy',
                        "stratégie pour le jeu 2048",
       author='Alix Plamont, Théo Portalier et Yohan Wloczysiak',
       author_email='alix.plamont@ensae.fr ; theo.portalier@ensae.fr ; yohan.wloczysiak@ensae.fr',
-      url='https://github.com/APlamont/2048',
+      url='https://github.com/APlamont/the2048PythonStrategy',
       packages=packages,
       package_dir=package_dir,
       # requires indique quels packages doivent être installés
