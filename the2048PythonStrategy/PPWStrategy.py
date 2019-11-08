@@ -1,5 +1,5 @@
 """
-Implements the PPW (Plamont Portalier Wloczysiak) strategy for the game 2048.
+Implémente la stratégie PPW (Plamont Portalier Wloczysiak) pour le jeu 2048.
 """
 from .cp2048 import Game2048
 
@@ -104,8 +104,8 @@ def score(game):
 def strategy_aux(game):
     """
     Renvoie la suite de trois coups consécutifs ayant le meilleur score.
-	Le score d'une suite de trois coups est la somme des scores des 
-	grilles obtenues en jouant ces trois coups.
+    Le score d'une suite de trois coups est la somme des scores des 
+    grilles obtenues en jouant ces trois coups.
 
     Paramètre game : matrice numpy 4x4 représentant la grille du jeu.
     """
@@ -133,6 +133,7 @@ def strategy_aux(game):
         if somme_score > score_max:
             score_max = somme_score
             index_score_max = index
+
     return L[index_score_max]
 
 
