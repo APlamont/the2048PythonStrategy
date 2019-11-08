@@ -26,7 +26,7 @@ print(res)
 
 fig, ax = plt.subplots(1, 1, figsize=(8, 4))
 ax.bar(numpy.arange(len(res)), res, color="b",
-	   label="PPW", width=0.4)
+       label="PPW", width=0.4)
 ax.set_title("Our strategy for 2048.")
 ax.legend()
 plt.show()
