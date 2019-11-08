@@ -16,8 +16,9 @@ class TestStrategy(unittest.TestCase):
         si la stratégie renvoie bien une direction correcte.
         """
         for _ in range(10):
-            game = numpy.array([random.choice([0, 2, 4, 8, 16, 32, 64,
-                128, 256, 512, 1024]) for _ in range(16)])
+            L = [0, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+            game = [random.choice(L) for _ in range(16)]
+            game = numpy.array(game)
             game = game.reshape(4, 4)
             rnd = PPW_strategy(game)
             assert rnd in {0, 1, 2, 3}
