@@ -38,3 +38,5 @@ To execute the exemple and judge the strategy (a six minute run) :
 ::
 
     python -m examples.plot_strategy.py
+
+The average 2048 rate is almost 5% with our strategy.
