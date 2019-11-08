@@ -9,7 +9,7 @@ import numpy
 import matplotlib.pyplot as plt
 
 from the2048PythonStrategy.PPWStrategy import PPW_strategy
-from the2048PythonStrategy import evaluate_strategy, Game2048
+from the2048PythonStrategy import evaluate_strategy
 
 ##############################
 # The strategy :func:`PPW_strategy
