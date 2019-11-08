@@ -24,7 +24,7 @@ To check style:
 
 ::
 
-    python -m flake8 pystrat2048 tests examples
+    python -m flake8 the2048PythonStrategy tests examples
 
 
 To execute the exemple and judge the strategy (a six minute run) :
