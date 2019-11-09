@@ -9,8 +9,8 @@ This work was achieved by `Alix Plamont
 <https://github.com/YohanWloczysiak>`_.
 
 One example of use : 
-`plot_strategy.py
-<https://github.com/APlamont/the2048PythonStrategy/blob/master/examples/plot_strategy.py>`_.
+`example.py
+<https://github.com/APlamont/the2048PythonStrategy/blob/master/example.py>`_.
 
 Generate the setup in subfolder ``dist``:
 
