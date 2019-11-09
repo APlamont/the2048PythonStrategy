@@ -18,7 +18,7 @@ setup(name='the2048PythonStrategy',
       long_description="Exemple de module python implémentant une "
                        "stratégie pour le jeu 2048",
       author='Alix Plamont, Théo Portalier et Yohan Wloczysiak',
-      author_email='alix.plamont@ensae.fr ; theo.portalier@ensae.fr ; yohan.wloczysiak@ensae.fr',
+      author_email='alix.plamont@ensae.fr',
       url='https://github.com/APlamont/the2048PythonStrategy',
       packages=packages,
       package_dir=package_dir,

@@ -4,18 +4,17 @@ Unit tests for ``PPW_strategy``.
 import unittest
 import numpy
 import random
-from the2048PythonStrategy.PPWStrategy import PPW_strategy
-from the2048PythonStrategy import evaluate_strategy
+from the2048PythonStrategy import PPW_strategy, evaluate_strategy
 
 
 class TestStrategy(unittest.TestCase):
 
     def test_PPW_strategy(self):
         """
-        Teste, pour une grille de départ aléatoire,
+        Teste 10 fois, pour une grille de départ aléatoire,
         si la stratégie renvoie bien une direction correcte.
         """
-        for _ in range(10):
+        for i in range(10):
             L = [0, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
             game = [random.choice(L) for _ in range(16)]
             game = numpy.array(game)

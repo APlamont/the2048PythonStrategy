@@ -30,13 +30,13 @@ To check style:
 
 ::
 
-    python -m flake8 the2048PythonStrategy tests examples
+    python -m flake8 .
 
 
-To execute the exemple and judge the strategy (a six minute run) :
+To execute the exemple and judge the strategy with 100 parties (a six minute run) :
 
 ::
 
-    python -m examples.plot_strategy.py
+    python example.py
 
-The average 2048 rate is almost 5% with our strategy.
+The average 2048 rate is almost 7% with our strategy.
