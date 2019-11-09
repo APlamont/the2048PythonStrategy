@@ -14,7 +14,7 @@ class TestStrategy(unittest.TestCase):
         Teste 10 fois, pour une grille de départ aléatoire,
         si la stratégie renvoie bien une direction correcte.
         """
-        for i in range(10):
+        for _ in range(10):
             L = [0, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
             game = [random.choice(L) for _ in range(16)]
             game = numpy.array(game)
